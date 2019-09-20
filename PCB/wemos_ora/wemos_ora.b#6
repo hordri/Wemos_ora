@@ -2019,26 +2019,26 @@ design rules under a new name.</description>
 <element name="ANOD_TAP1:T1" library="transistor" package="TO92-EBC" value="" x="27.94" y="53.34" rot="R90"/>
 <element name="ANOD_TAP1:D1" library="diode" package="SOD57-10" value="BYV27" x="19.05" y="54.61" rot="R180"/>
 <element name="ANOD_TAP1:D2" library="diode" package="DO35-7" value="1N4148DO35-7" x="33.02" y="52.07" rot="R90"/>
-<element name="ANOD_DRIVER1:R3" library="rcl" package="0204/5" value="470k" x="50.8" y="38.1" rot="R180"/>
+<element name="ANOD_DRIVER1:R3" library="rcl" package="0204/5" value="15k" x="50.8" y="38.1" rot="R180"/>
 <element name="ANOD_DRIVER1:R1" library="rcl" package="0204/5" value="470k" x="45.72" y="30.48" rot="R90"/>
-<element name="ANOD_DRIVER1:R2" library="rcl" package="0204/5" value="470k" x="50.8" y="27.94"/>
-<element name="ANOD_DRIVER1:R4" library="rcl" package="0204/5" value="470k" x="41.91" y="29.21" rot="R270"/>
+<element name="ANOD_DRIVER1:R2" library="rcl" package="0204/5" value="100k" x="50.8" y="27.94"/>
+<element name="ANOD_DRIVER1:R4" library="rcl" package="0204/5" value="22k" x="41.91" y="29.21" rot="R270"/>
 <element name="ANOD_DRIVER2:R1" library="rcl" package="0204/5" value="470k" x="59.69" y="26.67" rot="R180"/>
-<element name="ANOD_DRIVER2:R2" library="rcl" package="0204/5" value="470k" x="69.85" y="31.75" rot="R270"/>
-<element name="ANOD_DRIVER2:R3" library="rcl" package="0204/5" value="470k" x="58.42" y="38.1"/>
-<element name="ANOD_DRIVER2:R4" library="rcl" package="0204/5" value="470k" x="63.5" y="30.48"/>
+<element name="ANOD_DRIVER2:R2" library="rcl" package="0204/5" value="100k" x="69.85" y="31.75" rot="R270"/>
+<element name="ANOD_DRIVER2:R3" library="rcl" package="0204/5" value="15k" x="58.42" y="38.1"/>
+<element name="ANOD_DRIVER2:R4" library="rcl" package="0204/5" value="22k" x="63.5" y="30.48"/>
 <element name="ANOD_DRIVER2:T1" library="transistor" package="TO92-EBC" value="" x="58.42" y="31.75" rot="R270"/>
 <element name="ANOD_DRIVER2:T2" library="transistor" package="TO92-EBC" value="" x="64.77" y="35.56" rot="R90"/>
 <element name="ANOD_DRIVER3:R1" library="rcl" package="0204/5" value="470k" x="81.28" y="33.02"/>
-<element name="ANOD_DRIVER3:R2" library="rcl" package="0204/5" value="470k" x="76.2" y="29.21" rot="R180"/>
-<element name="ANOD_DRIVER3:R3" library="rcl" package="0204/5" value="470k" x="68.58" y="40.64"/>
-<element name="ANOD_DRIVER3:R4" library="rcl" package="0204/5" value="470k" x="80.01" y="46.355"/>
+<element name="ANOD_DRIVER3:R2" library="rcl" package="0204/5" value="100k" x="76.2" y="29.21" rot="R180"/>
+<element name="ANOD_DRIVER3:R3" library="rcl" package="0204/5" value="15k" x="68.58" y="40.64"/>
+<element name="ANOD_DRIVER3:R4" library="rcl" package="0204/5" value="22k" x="80.01" y="46.355"/>
 <element name="ANOD_DRIVER3:T1" library="transistor" package="TO92-EBC" value="" x="80.01" y="39.37"/>
 <element name="ANOD_DRIVER3:T2" library="transistor" package="TO92-EBC" value="" x="72.39" y="35.56" rot="R90"/>
 <element name="ANOD_DRIVER4:R1" library="rcl" package="0204/5" value="470k" x="78.74" y="52.07" rot="R270"/>
-<element name="ANOD_DRIVER4:R2" library="rcl" package="0204/5" value="470k" x="74.93" y="52.07" rot="R270"/>
-<element name="ANOD_DRIVER4:R3" library="rcl" package="0204/5" value="470k" x="67.31" y="46.99" rot="R90"/>
-<element name="ANOD_DRIVER4:R4" library="rcl" package="0204/5" value="470k" x="80.01" y="42.8625"/>
+<element name="ANOD_DRIVER4:R2" library="rcl" package="0204/5" value="100k" x="74.93" y="52.07" rot="R270"/>
+<element name="ANOD_DRIVER4:R3" library="rcl" package="0204/5" value="15k" x="67.31" y="46.99" rot="R90"/>
+<element name="ANOD_DRIVER4:R4" library="rcl" package="0204/5" value="22k" x="80.01" y="42.8625"/>
 <element name="ANOD_DRIVER4:T1" library="transistor" package="TO92-EBC" value="" x="72.39" y="44.45" rot="R90"/>
 <element name="ANOD_DRIVER4:T2" library="transistor" package="TO92-EBC" value="" x="69.85" y="52.07" rot="R90"/>
 <element name="LV_TAP1:KK1" library="heatsink" package="SK104-PAD" value="SK104-PAD" x="21.59" y="86.36" rot="R180"/>

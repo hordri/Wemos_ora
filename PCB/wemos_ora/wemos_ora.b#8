@@ -159,11 +159,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160.35" y2="100.31" width="0" layer="20"/>
-<wire x1="160.35" y1="100.31" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0.33" y1="100.31" x2="0" y2="0" x3="95.418146875" y3="49.8416375" textsize="1.778" layer="16"/>
+<wire x1="0" y1="22.86" x2="95.23" y2="22.86" width="0" layer="20"/>
+<wire x1="95.23" y1="22.86" x2="95.58" y2="100.31" width="0" layer="20"/>
+<wire x1="95.58" y1="100.31" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="22.86" width="0" layer="20"/>
+<dimension x1="0.33" y1="100.31" x2="0" y2="22.86" x3="95.417796875" y3="61.179146875" textsize="1.778" layer="16"/>
 </plain>
 <libraries>
 <library name="1455413453956-wemos">
@@ -1998,8 +1998,8 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="1455413453956-wemos" package="WEMOS" value="WEMOS" x="81.28" y="67.31" rot="R90"/>
-<element name="ANOD_DRIVER1:T1" library="transistor" package="TO92-EBC" value="" x="44.45" y="38.1" rot="R90"/>
-<element name="ANOD_DRIVER1:T2" library="transistor" package="TO92-EBC" value="" x="48.26" y="31.75" rot="R90"/>
+<element name="ANOD_DRIVER1:T1" library="transistor" package="TO92-EBC" value="" x="44.45" y="36.83" rot="R270"/>
+<element name="ANOD_DRIVER1:T2" library="transistor" package="TO92-EBC" value="" x="50.8" y="31.75" rot="R180"/>
 <element name="IC2" library="74xx-eu" package="DIL16" value="74141N" x="52.07" y="58.42" rot="R180"/>
 <element name="J1" library="dp_devices" package="M2X7" value="CON_HEADER_2X07-PTH" x="53.34" y="45.72"/>
 <element name="ANOD_TAP1:IC1" library="mc34063" package="DIL08" value="MC34063AP" x="33.02" y="66.3575" rot="R90"/>
@@ -2016,28 +2016,28 @@ design rules under a new name.</description>
 <element name="ANOD_TAP1:T1" library="transistor" package="TO92-EBC" value="" x="27.94" y="53.34" rot="R90"/>
 <element name="ANOD_TAP1:D1" library="diode" package="SOD57-10" value="BYV27" x="19.05" y="54.61" rot="R180"/>
 <element name="ANOD_TAP1:D2" library="diode" package="DO35-7" value="1N4148DO35-7" x="33.02" y="52.07" rot="R90"/>
-<element name="ANOD_DRIVER1:R3" library="rcl" package="0204/5" value="470k" x="57.15" y="39.37" rot="R270"/>
-<element name="ANOD_DRIVER1:R1" library="rcl" package="0204/5" value="470k" x="41.91" y="30.48" rot="R90"/>
-<element name="ANOD_DRIVER1:R2" library="rcl" package="0204/5" value="470k" x="45.72" y="27.94"/>
-<element name="ANOD_DRIVER1:R4" library="rcl" package="0204/5" value="470k" x="53.34" y="43.18" rot="R90"/>
-<element name="ANOD_DRIVER2:R1" library="rcl" package="0204/5" value="470k" x="87.63" y="36.83" rot="R90"/>
-<element name="ANOD_DRIVER2:R2" library="rcl" package="0204/5" value="470k" x="88.9" y="29.21"/>
-<element name="ANOD_DRIVER2:R3" library="rcl" package="0204/5" value="470k" x="83.82" y="41.91"/>
-<element name="ANOD_DRIVER2:R4" library="rcl" package="0204/5" value="470k" x="78.74" y="39.37" rot="R90"/>
-<element name="ANOD_DRIVER2:T1" library="transistor" package="TO92-EBC" value="" x="82.55" y="36.83" rot="R90"/>
-<element name="ANOD_DRIVER2:T2" library="transistor" package="TO92-EBC" value="" x="91.44" y="34.29" rot="R90"/>
-<element name="ANOD_DRIVER3:R1" library="rcl" package="0204/5" value="470k" x="88.9" y="46.99" rot="R90"/>
-<element name="ANOD_DRIVER3:R2" library="rcl" package="0204/5" value="470k" x="91.44" y="41.91"/>
-<element name="ANOD_DRIVER3:R3" library="rcl" package="0204/5" value="470k" x="85.09" y="52.07"/>
-<element name="ANOD_DRIVER3:R4" library="rcl" package="0204/5" value="470k" x="81.28" y="49.53" rot="R90"/>
-<element name="ANOD_DRIVER3:T1" library="transistor" package="TO92-EBC" value="" x="83.82" y="46.99" rot="R90"/>
-<element name="ANOD_DRIVER3:T2" library="transistor" package="TO92-EBC" value="" x="91.44" y="48.26" rot="R90"/>
-<element name="ANOD_DRIVER4:R1" library="rcl" package="0204/5" value="470k" x="87.63" y="59.69" rot="R90"/>
-<element name="ANOD_DRIVER4:R2" library="rcl" package="0204/5" value="470k" x="91.44" y="54.61"/>
-<element name="ANOD_DRIVER4:R3" library="rcl" package="0204/5" value="470k" x="83.82" y="54.61"/>
-<element name="ANOD_DRIVER4:R4" library="rcl" package="0204/5" value="470k" x="85.09" y="62.23" rot="R90"/>
-<element name="ANOD_DRIVER4:T1" library="transistor" package="TO92-EBC" value="" x="80.01" y="59.69" rot="R90"/>
-<element name="ANOD_DRIVER4:T2" library="transistor" package="TO92-EBC" value="" x="91.44" y="59.69" rot="R90"/>
+<element name="ANOD_DRIVER1:R3" library="rcl" package="0204/5" value="470k" x="50.8" y="38.1" rot="R180"/>
+<element name="ANOD_DRIVER1:R1" library="rcl" package="0204/5" value="470k" x="45.72" y="30.48" rot="R90"/>
+<element name="ANOD_DRIVER1:R2" library="rcl" package="0204/5" value="470k" x="50.8" y="27.94"/>
+<element name="ANOD_DRIVER1:R4" library="rcl" package="0204/5" value="470k" x="43.18" y="29.21" rot="R270"/>
+<element name="ANOD_DRIVER2:R1" library="rcl" package="0204/5" value="470k" x="59.69" y="26.67" rot="R180"/>
+<element name="ANOD_DRIVER2:R2" library="rcl" package="0204/5" value="470k" x="69.85" y="29.21" rot="R270"/>
+<element name="ANOD_DRIVER2:R3" library="rcl" package="0204/5" value="470k" x="58.42" y="38.1"/>
+<element name="ANOD_DRIVER2:R4" library="rcl" package="0204/5" value="470k" x="63.5" y="30.48"/>
+<element name="ANOD_DRIVER2:T1" library="transistor" package="TO92-EBC" value="" x="58.42" y="31.75" rot="R270"/>
+<element name="ANOD_DRIVER2:T2" library="transistor" package="TO92-EBC" value="" x="64.77" y="35.56" rot="R90"/>
+<element name="ANOD_DRIVER3:R1" library="rcl" package="0204/5" value="470k" x="78.74" y="34.29" rot="R90"/>
+<element name="ANOD_DRIVER3:R2" library="rcl" package="0204/5" value="470k" x="76.2" y="26.67" rot="R180"/>
+<element name="ANOD_DRIVER3:R3" library="rcl" package="0204/5" value="470k" x="68.58" y="40.64"/>
+<element name="ANOD_DRIVER3:R4" library="rcl" package="0204/5" value="470k" x="73.66" y="46.99" rot="R180"/>
+<element name="ANOD_DRIVER3:T1" library="transistor" package="TO92-EBC" value="" x="76.2" y="43.18"/>
+<element name="ANOD_DRIVER3:T2" library="transistor" package="TO92-EBC" value="" x="72.39" y="35.56" rot="R90"/>
+<element name="ANOD_DRIVER4:R1" library="rcl" package="0204/5" value="470k" x="85.09" y="43.18" rot="R90"/>
+<element name="ANOD_DRIVER4:R2" library="rcl" package="0204/5" value="470k" x="87.63" y="35.56"/>
+<element name="ANOD_DRIVER4:R3" library="rcl" package="0204/5" value="470k" x="68.58" y="46.99" rot="R90"/>
+<element name="ANOD_DRIVER4:R4" library="rcl" package="0204/5" value="470k" x="81.28" y="57.15" rot="R90"/>
+<element name="ANOD_DRIVER4:T1" library="transistor" package="TO92-EBC" value="" x="81.28" y="50.8"/>
+<element name="ANOD_DRIVER4:T2" library="transistor" package="TO92-EBC" value="" x="76.2" y="53.34" rot="R180"/>
 <element name="LV_TAP1:KK1" library="heatsink" package="SK104-PAD" value="SK104-PAD" x="21.59" y="86.36" rot="R180"/>
 <element name="LV_TAP1:IC1" library="linear" package="TO220V" value="7805TV" x="21.59" y="86.36"/>
 <element name="LV_TAP1:C1" library="rcl" package="E3,5-8" value="470u" x="8.382" y="76.2"/>
@@ -2088,11 +2088,11 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="83.82" x2="22.86" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="10.16" y1="76.2" x2="20.32" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="38.735" y1="49.7205" x2="29.21" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="39.37" x2="38.735" y2="49.7205" width="0" layer="19" extent="1-1"/>
 <wire x1="50.8" y1="54.61" x2="38.735" y2="49.7205" width="0" layer="19" extent="1-1"/>
-<wire x1="45.72" y1="35.56" x2="38.735" y2="49.7205" width="0" layer="19" extent="1-1"/>
-<wire x1="81.28" y1="57.15" x2="50.8" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="85.09" y1="44.45" x2="81.28" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="34.29" x2="85.09" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="34.29" x2="43.18" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="41.91" x2="57.15" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="49.53" x2="73.66" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_TAP1:N$4">
 <contactref element="ANOD_TAP1:IC1" pad="2"/>
@@ -2137,24 +2137,26 @@ design rules under a new name.</description>
 <signal name="ANOD_DRIVER1:N$1">
 <contactref element="ANOD_DRIVER1:T2" pad="C"/>
 <contactref element="ANOD_DRIVER1:R3" pad="2"/>
-<wire x1="49.53" y1="34.29" x2="57.15" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="33.02" x2="48.26" y2="38.1" width="1.27" layer="16"/>
 </signal>
 <signal name="ANOD_DRIVER1:N$2">
 <contactref element="ANOD_DRIVER1:R1" pad="1"/>
 <contactref element="ANOD_DRIVER1:R2" pad="1"/>
 <contactref element="ANOD_DRIVER1:T2" pad="B"/>
-<wire x1="43.18" y1="27.94" x2="49.53" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="41.91" y1="27.94" x2="43.18" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="27.94" x2="45.72" y2="27.94" width="1.27" layer="16"/>
+<wire x1="50.8" y1="33.02" x2="50.8" y2="30.48" width="1.27" layer="16"/>
+<wire x1="50.8" y1="30.48" x2="48.26" y2="27.94" width="1.27" layer="16"/>
 </signal>
 <signal name="ANOD_DRIVER1:N$3">
 <contactref element="ANOD_DRIVER1:T1" pad="C"/>
 <contactref element="ANOD_DRIVER1:R1" pad="2"/>
-<wire x1="41.91" y1="33.02" x2="45.72" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="33.02" x2="44.45" y2="33.02" width="1.27" layer="16"/>
+<wire x1="44.45" y1="33.02" x2="43.18" y2="34.29" width="1.27" layer="16"/>
 </signal>
 <signal name="ANOD_DRIVER1:N$4">
 <contactref element="ANOD_DRIVER1:T1" pad="B"/>
 <contactref element="ANOD_DRIVER1:R4" pad="1"/>
-<wire x1="45.72" y1="38.1" x2="53.34" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="31.75" x2="43.18" y2="36.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J1" pad="14"/>
@@ -2188,98 +2190,115 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="IC2" pad="1"/>
 <contactref element="J1" pad="5"/>
-<wire x1="50.8" y1="44.45" x2="60.96" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="62.23" x2="63.5" y2="59.69" width="0.8128" layer="1"/>
+<wire x1="63.5" y1="59.69" x2="63.5" y2="44.45" width="0.8128" layer="1"/>
+<wire x1="63.5" y1="44.45" x2="61.595" y2="42.545" width="0.8128" layer="1"/>
+<wire x1="61.595" y1="42.545" x2="52.07" y2="42.545" width="0.8128" layer="1"/>
+<wire x1="52.07" y1="42.545" x2="50.8" y2="43.815" width="0.8128" layer="1"/>
+<wire x1="50.8" y1="43.815" x2="50.8" y2="44.45" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="IC2" pad="2"/>
 <contactref element="J1" pad="3"/>
-<wire x1="48.26" y1="44.45" x2="58.42" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="62.23" x2="58.42" y2="63.5" width="0.8128" layer="1"/>
+<wire x1="58.42" y1="63.5" x2="59.69" y2="64.77" width="0.8128" layer="1"/>
+<wire x1="59.69" y1="64.77" x2="62.23" y2="64.77" width="0.8128" layer="1"/>
+<wire x1="62.23" y1="64.77" x2="65.405" y2="61.595" width="0.8128" layer="1"/>
+<wire x1="65.405" y1="61.595" x2="65.405" y2="43.4975" width="0.8128" layer="1"/>
+<wire x1="65.405" y1="43.4975" x2="62.5475" y2="40.64" width="0.8128" layer="1"/>
+<wire x1="62.5475" y1="40.64" x2="51.435" y2="40.64" width="0.8128" layer="1"/>
+<wire x1="51.435" y1="40.64" x2="48.26" y2="43.815" width="0.8128" layer="1"/>
+<wire x1="48.26" y1="43.815" x2="48.26" y2="44.45" width="0.8128" layer="1"/>
 </signal>
 <signal name="ANOD_DRIVER2:N$1">
 <contactref element="ANOD_DRIVER2:T2" pad="C"/>
 <contactref element="ANOD_DRIVER2:R3" pad="2"/>
-<wire x1="86.36" y1="41.91" x2="92.71" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="38.1" x2="66.04" y2="38.1" width="1.27" layer="16"/>
 </signal>
 <signal name="ANOD_DRIVER2:N$2">
 <contactref element="ANOD_DRIVER2:R1" pad="1"/>
 <contactref element="ANOD_DRIVER2:R2" pad="1"/>
 <contactref element="ANOD_DRIVER2:T2" pad="B"/>
-<wire x1="87.63" y1="34.29" x2="92.71" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="86.36" y1="29.21" x2="87.63" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="35.56" x2="64.77" y2="35.56" width="1.27" layer="16"/>
+<wire x1="64.77" y1="35.56" x2="63.5" y2="34.29" width="1.27" layer="16"/>
+<wire x1="63.5" y1="34.29" x2="63.5" y2="27.94" width="1.27" layer="16"/>
+<wire x1="63.5" y1="27.94" x2="62.23" y2="26.67" width="1.27" layer="16"/>
+<wire x1="66.04" y1="35.56" x2="69.85" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_DRIVER2:N$3">
 <contactref element="ANOD_DRIVER2:T1" pad="C"/>
 <contactref element="ANOD_DRIVER2:R1" pad="2"/>
-<wire x1="83.82" y1="39.37" x2="87.63" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="26.67" x2="57.15" y2="29.21" width="1.27" layer="16"/>
 </signal>
 <signal name="ANOD_DRIVER2:N$4">
 <contactref element="ANOD_DRIVER2:T1" pad="B"/>
 <contactref element="ANOD_DRIVER2:R4" pad="1"/>
-<wire x1="78.74" y1="36.83" x2="83.82" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="31.75" x2="59.69" y2="31.75" width="1.27" layer="16"/>
+<wire x1="59.69" y1="31.75" x2="60.96" y2="30.48" width="1.27" layer="16"/>
 </signal>
 <signal name="ANOD_DRIVER3:N$1">
 <contactref element="ANOD_DRIVER3:T2" pad="C"/>
 <contactref element="ANOD_DRIVER3:R3" pad="2"/>
-<wire x1="87.63" y1="52.07" x2="92.71" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="40.64" x2="73.66" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_DRIVER3:N$2">
 <contactref element="ANOD_DRIVER3:R1" pad="1"/>
 <contactref element="ANOD_DRIVER3:R2" pad="1"/>
 <contactref element="ANOD_DRIVER3:T2" pad="B"/>
-<wire x1="88.9" y1="44.45" x2="92.71" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="88.9" y1="41.91" x2="88.9" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="26.67" x2="78.74" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="35.56" x2="78.74" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_DRIVER3:N$3">
 <contactref element="ANOD_DRIVER3:T1" pad="C"/>
 <contactref element="ANOD_DRIVER3:R1" pad="2"/>
-<wire x1="85.09" y1="49.53" x2="88.9" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="36.83" x2="78.74" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_DRIVER3:N$4">
 <contactref element="ANOD_DRIVER3:T1" pad="B"/>
 <contactref element="ANOD_DRIVER3:R4" pad="1"/>
-<wire x1="81.28" y1="46.99" x2="85.09" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="41.91" x2="76.2" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_DRIVER4:N$1">
 <contactref element="ANOD_DRIVER4:T2" pad="C"/>
 <contactref element="ANOD_DRIVER4:R3" pad="2"/>
-<wire x1="86.36" y1="54.61" x2="92.71" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="68.58" y1="49.53" x2="73.66" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_DRIVER4:N$2">
 <contactref element="ANOD_DRIVER4:R1" pad="1"/>
 <contactref element="ANOD_DRIVER4:R2" pad="1"/>
 <contactref element="ANOD_DRIVER4:T2" pad="B"/>
-<wire x1="87.63" y1="57.15" x2="92.71" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="88.9" y1="54.61" x2="87.63" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="85.09" y1="40.64" x2="76.2" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="85.09" y1="35.56" x2="85.09" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_DRIVER4:N$3">
 <contactref element="ANOD_DRIVER4:T1" pad="C"/>
 <contactref element="ANOD_DRIVER4:R1" pad="2"/>
-<wire x1="81.28" y1="62.23" x2="87.63" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="85.09" y1="45.72" x2="83.82" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_DRIVER4:N$4">
 <contactref element="ANOD_DRIVER4:T1" pad="B"/>
 <contactref element="ANOD_DRIVER4:R4" pad="1"/>
-<wire x1="81.28" y1="59.69" x2="85.09" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="49.53" x2="81.28" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="J1" pad="7"/>
 <contactref element="ANOD_DRIVER1:R3" pad="1"/>
-<wire x1="57.15" y1="41.91" x2="53.34" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="44.45" x2="53.34" y2="38.1" width="1.27" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="J1" pad="9"/>
 <contactref element="ANOD_DRIVER2:R3" pad="1"/>
-<wire x1="55.88" y1="44.45" x2="81.28" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="44.45" x2="55.88" y2="38.1" width="1.27" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="J1" pad="11"/>
 <contactref element="ANOD_DRIVER3:R3" pad="1"/>
-<wire x1="58.42" y1="44.45" x2="82.55" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="44.45" x2="66.04" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="J1" pad="13"/>
 <contactref element="ANOD_DRIVER4:R3" pad="1"/>
-<wire x1="60.96" y1="44.45" x2="81.28" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="44.45" x2="68.58" y2="44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U$1" pad="D0"/>
@@ -2319,22 +2338,22 @@ design rules under a new name.</description>
 <signal name="N$19">
 <contactref element="U$1" pad="D8"/>
 <contactref element="ANOD_DRIVER1:R4" pad="2"/>
-<wire x1="53.34" y1="45.72" x2="78.74" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="26.67" x2="78.74" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="U$1" pad="D5"/>
 <contactref element="ANOD_DRIVER2:R4" pad="2"/>
-<wire x1="78.74" y1="41.91" x2="71.12" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="30.48" x2="71.12" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="U$1" pad="D6"/>
 <contactref element="ANOD_DRIVER3:R4" pad="2"/>
-<wire x1="81.28" y1="52.07" x2="73.66" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="46.99" x2="73.66" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="U$1" pad="D7"/>
 <contactref element="ANOD_DRIVER4:R4" pad="2"/>
-<wire x1="76.2" y1="67.31" x2="85.09" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="59.69" x2="76.2" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+9V">
 <contactref element="J2" pad="2"/>
@@ -2405,14 +2424,14 @@ design rules under a new name.</description>
 <wire x1="24.13" y1="52.07" x2="30.48" y2="45.72" width="1.27" layer="1"/>
 <wire x1="30.48" y1="45.72" x2="38.2905" y2="45.72" width="1.27" layer="1"/>
 <wire x1="38.2905" y1="45.72" x2="38.735" y2="46.1645" width="1.27" layer="1"/>
-<wire x1="92.71" y1="57.15" x2="93.98" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="92.71" y1="45.72" x2="93.98" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="93.98" y1="41.91" x2="92.71" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="92.71" y1="31.75" x2="93.98" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="91.44" y1="29.21" x2="92.71" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="29.21" x2="91.44" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="48.26" y1="27.94" x2="49.53" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="38.2905" y1="45.72" x2="49.53" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="27.94" x2="53.34" y2="33.02" width="1.27" layer="16"/>
+<wire x1="73.66" y1="33.02" x2="78.74" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="26.67" x2="73.66" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="26.67" x2="73.66" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="33.02" x2="69.85" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="33.02" x2="66.04" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="90.17" y1="35.56" x2="73.66" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="38.735" y1="46.1645" x2="53.34" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANOD_TAP1:N$1">
 <contactref element="ANOD_TAP1:L3" pad="1"/>

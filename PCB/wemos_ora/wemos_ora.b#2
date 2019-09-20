@@ -2001,46 +2001,129 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="1455413453956-wemos" package="WEMOS" value="WEMOS" x="81.28" y="67.31" rot="R90"/>
-<element name="ANOD_DRIVER1:T1" library="transistor" package="TO92-EBC" value="MPSA42" x="44.45" y="36.83" rot="R270"/>
-<element name="ANOD_DRIVER1:T2" library="transistor" package="TO92-EBC" value="MPSA92" x="50.8" y="31.75" rot="R180"/>
+<element name="ANOD_DRIVER1:T1" library="transistor" package="TO92-EBC" value="MPSA42" x="44.45" y="36.83" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.228" y="39.37" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="39.878" y="39.37" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="ANOD_DRIVER1:T2" library="transistor" package="TO92-EBC" value="MPSA92" x="50.8" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="53.34" y="29.972" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="53.34" y="36.322" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="IC2" library="74xx-eu" package="DIL16" value="74141N" x="52.07" y="58.42" rot="R180"/>
 <element name="J1" library="dp_devices" package="M2X7" value="CON_HEADER_2X07-PTH" x="53.34" y="45.72"/>
-<element name="ANOD_TAP1:IC1" library="mc34063" package="DIL08" value="MC34063AP" x="33.02" y="66.3575" rot="R90"/>
+<element name="ANOD_TAP1:IC1" library="mc34063" package="DIL08" value="MC34063AP" x="33.02" y="66.3575" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.941" y="61.0235" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="40.3225" y="61.5315" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="ANOD_TAP1:R1" library="rcl" package="0922/22" value="0R47" x="7.62" y="57.15" rot="R270"/>
 <element name="ANOD_TAP1:R2" library="rcl" package="0204/5" value="1k" x="30.48" y="59.055"/>
-<element name="ANOD_TAP1:R3" library="rcl" package="0204/5" value="470k" x="25.4" y="66.04" rot="R270"/>
-<element name="ANOD_TAP1:R4" library="rcl" package="0204/5" value="3k3" x="22.86" y="66.04" rot="R90"/>
+<element name="ANOD_TAP1:R3" library="rcl" package="0204/5" value="470k" x="25.4" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="26.5684" y="68.0466" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="24.6761" y="61.8236" size="0.9906" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="ANOD_TAP1:R4" library="rcl" package="0204/5" value="3k3" x="22.86" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.6916" y="64.0334" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="23.2664" y="59.7789" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="ANOD_TAP1:C1" library="rcl" package="E3,5-8" value="220u" x="46.6725" y="77.47" rot="R90"/>
-<element name="ANOD_TAP1:C2" library="rcl" package="C050-024X044" value="2n2" x="40.005" y="76.5175" rot="R90"/>
+<element name="ANOD_TAP1:C2" library="rcl" package="C050-024X044" value="2n2" x="40.005" y="76.5175" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.608" y="74.3585" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="42.799" y="81.7245" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="ANOD_TAP1:C3" library="rcl" package="C050-024X044" value="10n" x="22.86" y="71.12" rot="R180"/>
 <element name="ANOD_TAP1:C4" library="rcl" package="E3,5-8" value="2u2" x="38.735" y="47.9425" rot="R90"/>
 <element name="ANOD_TAP1:L1" library="inductor-bourns" package="PM2120" value="PM2120" x="21.59" y="36.83" rot="MR0"/>
-<element name="ANOD_TAP1:Q1" library="transistor-power" package="TO220BV" value="IRF740" x="16.51" y="63.5" rot="R90"/>
-<element name="ANOD_TAP1:T1" library="transistor" package="TO92-EBC" value="MPSA92" x="27.94" y="53.34" rot="R90"/>
-<element name="ANOD_TAP1:D1" library="diode" package="SOD57-10" value="BYV27" x="19.05" y="54.61" rot="R180"/>
-<element name="ANOD_TAP1:D2" library="diode" package="DO35-7" value="1N4148DO35-7" x="33.02" y="52.07" rot="R90"/>
+<element name="ANOD_TAP1:Q1" library="transistor-power" package="TO220BV" value="IRF740" x="16.51" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.5552" y="58.42" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="15.24" y="58.42" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="ANOD_TAP1:T1" library="transistor" package="TO92-EBC" value="MPSA92" x="27.94" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.162" y="50.8" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="30.48" y="49.022" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="ANOD_TAP1:D1" library="diode" package="SOD57-10" value="BYV27" x="19.05" y="54.61" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.336" y="52.324" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="21.336" y="51.816" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="ANOD_TAP1:D2" library="diode" package="DO35-7" value="1N4148DO35-7" x="33.02" y="52.07" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.75" y="49.784" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
 <element name="ANOD_DRIVER1:R3" library="rcl" package="0204/5" value="15k" x="50.8" y="38.1" rot="R180"/>
-<element name="ANOD_DRIVER1:R1" library="rcl" package="0204/5" value="470k" x="45.72" y="30.48" rot="R90"/>
+<element name="ANOD_DRIVER1:R1" library="rcl" package="0204/5" value="470k" x="45.72" y="30.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.5516" y="28.4734" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="44.2214" y="28.3464" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="ANOD_DRIVER1:R2" library="rcl" package="0204/5" value="100k" x="50.8" y="27.94"/>
 <element name="ANOD_DRIVER1:R4" library="rcl" package="0204/5" value="22k" x="41.91" y="29.21" rot="R270"/>
-<element name="ANOD_DRIVER2:R1" library="rcl" package="0204/5" value="470k" x="59.69" y="26.67" rot="R180"/>
-<element name="ANOD_DRIVER2:R2" library="rcl" package="0204/5" value="100k" x="69.85" y="31.75" rot="R270"/>
-<element name="ANOD_DRIVER2:R3" library="rcl" package="0204/5" value="15k" x="58.42" y="38.1"/>
-<element name="ANOD_DRIVER2:R4" library="rcl" package="0204/5" value="22k" x="63.5" y="29.21"/>
-<element name="ANOD_DRIVER2:T1" library="transistor" package="TO92-EBC" value="MPSA42" x="58.42" y="31.75" rot="R270"/>
-<element name="ANOD_DRIVER2:T2" library="transistor" package="TO92-EBC" value="MPSA92" x="64.77" y="34.29" rot="R90"/>
-<element name="ANOD_DRIVER3:R1" library="rcl" package="0204/5" value="470k" x="81.28" y="33.02"/>
-<element name="ANOD_DRIVER3:R2" library="rcl" package="0204/5" value="100k" x="76.2" y="29.21" rot="R180"/>
-<element name="ANOD_DRIVER3:R3" library="rcl" package="0204/5" value="15k" x="69.215" y="39.6875"/>
-<element name="ANOD_DRIVER3:R4" library="rcl" package="0204/5" value="22k" x="80.01" y="46.355"/>
-<element name="ANOD_DRIVER3:T1" library="transistor" package="TO92-EBC" value="MPSA42" x="80.01" y="39.37"/>
-<element name="ANOD_DRIVER3:T2" library="transistor" package="TO92-EBC" value="MPSA92" x="72.39" y="35.56" rot="R90"/>
-<element name="ANOD_DRIVER4:R1" library="rcl" package="0204/5" value="470k" x="78.74" y="52.07" rot="R270"/>
-<element name="ANOD_DRIVER4:R2" library="rcl" package="0204/5" value="100k" x="74.93" y="52.07" rot="R270"/>
+<element name="ANOD_DRIVER2:R1" library="rcl" package="0204/5" value="470k" x="59.69" y="26.67" smashed="yes" rot="R180">
+<attribute name="NAME" x="61.6966" y="25.5016" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="60.5536" y="25.1714" size="0.9906" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="ANOD_DRIVER2:R2" library="rcl" package="0204/5" value="100k" x="69.85" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="71.0184" y="33.7566" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="68.9864" y="26.8986" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER2:R3" library="rcl" package="0204/5" value="15k" x="58.42" y="38.1" smashed="yes">
+<attribute name="NAME" x="56.4134" y="39.2684" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="57.5564" y="39.5986" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER2:R4" library="rcl" package="0204/5" value="22k" x="63.5" y="29.21" smashed="yes">
+<attribute name="NAME" x="61.4934" y="30.3784" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="63.9064" y="26.8986" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER2:T1" library="transistor" package="TO92-EBC" value="MPSA42" x="58.42" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.198" y="34.29" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="54.9275" y="35.433" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER2:T2" library="transistor" package="TO92-EBC" value="MPSA92" x="64.77" y="34.29" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.992" y="31.75" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="62.992" y="30.48" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="ANOD_DRIVER3:R1" library="rcl" package="0204/5" value="470k" x="81.28" y="33.02" smashed="yes">
+<attribute name="NAME" x="79.2734" y="34.1884" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="79.1464" y="30.7086" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER3:R2" library="rcl" package="0204/5" value="100k" x="76.2" y="29.21" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.2066" y="28.0416" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="77.0636" y="27.7114" size="0.9906" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="ANOD_DRIVER3:R3" library="rcl" package="0204/5" value="15k" x="69.215" y="39.6875" smashed="yes">
+<attribute name="NAME" x="67.2084" y="40.8559" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="68.3514" y="41.1861" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER3:R4" library="rcl" package="0204/5" value="22k" x="80.01" y="46.355" smashed="yes">
+<attribute name="NAME" x="78.0034" y="47.5234" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="82.9564" y="44.0436" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER3:T1" library="transistor" package="TO92-EBC" value="MPSA42" x="80.01" y="39.37" smashed="yes">
+<attribute name="NAME" x="77.47" y="41.148" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="78.74" y="34.798" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER3:T2" library="transistor" package="TO92-EBC" value="MPSA92" x="72.39" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="70.612" y="33.02" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="76.962" y="30.48" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="ANOD_DRIVER4:R1" library="rcl" package="0204/5" value="470k" x="78.74" y="52.07" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.9084" y="54.0766" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="81.0514" y="49.9364" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="ANOD_DRIVER4:R2" library="rcl" package="0204/5" value="100k" x="74.93" y="52.07" smashed="yes" rot="R270">
+<attribute name="NAME" x="76.0984" y="54.0766" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="76.4286" y="52.9336" size="0.9906" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="ANOD_DRIVER4:R3" library="rcl" package="0204/5" value="15k" x="67.31" y="46.99" rot="R90"/>
-<element name="ANOD_DRIVER4:R4" library="rcl" package="0204/5" value="22k" x="80.01" y="42.8625"/>
-<element name="ANOD_DRIVER4:T1" library="transistor" package="TO92-EBC" value="MPSA42" x="72.39" y="44.45" rot="R90"/>
-<element name="ANOD_DRIVER4:T2" library="transistor" package="TO92-EBC" value="MPSA92" x="69.85" y="52.07" rot="R90"/>
+<element name="ANOD_DRIVER4:R4" library="rcl" package="0204/5" value="22k" x="80.01" y="42.8625" smashed="yes">
+<attribute name="NAME" x="78.0034" y="44.0309" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="82.9564" y="40.5511" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="ANOD_DRIVER4:T1" library="transistor" package="TO92-EBC" value="MPSA42" x="72.39" y="44.45" smashed="yes" rot="R90">
+<attribute name="NAME" x="70.612" y="41.91" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="80.01" y="41.0845" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="ANOD_DRIVER4:T2" library="transistor" package="TO92-EBC" value="MPSA92" x="69.85" y="52.07" smashed="yes" rot="R90">
+<attribute name="NAME" x="68.072" y="49.53" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="74.6125" y="57.277" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="LV_TAP1:KK1" library="heatsink" package="SK104-PAD" value="SK104-PAD" x="21.59" y="86.36" rot="R180"/>
 <element name="LV_TAP1:IC1" library="linear" package="TO220V" value="7805TV" x="21.59" y="86.36"/>
 <element name="LV_TAP1:C1" library="rcl" package="E3,5-8" value="470u" x="8.382" y="76.2"/>
