@@ -1,0 +1,10 @@
+Tube connector pinout
+
+3   7   6   4   5   1   0
+|---|---|---|---|---|---|
+2   9   8  TS1 TS2 TS3 TS4
+
+TS1 D8 Hour tens
+TS2 D5 Hours
+TS3 D6 Minute tens
+TS4 D7 Minutes
