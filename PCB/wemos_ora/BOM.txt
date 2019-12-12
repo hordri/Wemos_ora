@@ -1,0 +1,42 @@
+Resistor:
+1x 0R47 5W
+1/4W:
+
+1x 1k
+1x 3k3
+4x 15k 
+4x 22k
+4x 100k
+5x 470k
+
+Capacitor:
+1x 220u 16V
+2x 470u 16V
+1x 2u2 250V+
+1x 2n2
+1x 10n
+2x 100n
+
+Inductor:
+220uH 
+
+Diode:
+1x 1N4148
+1x BYV27
+
+Transistor:
+5x MPSA92
+4x MPSA42
+1x IRF740
+
+IC:
+7805
+SN74141
+MC34063
+
+Other:
+Wemos D1 mini
+14 pin DIL header
+2pin 5.08 pitch screw terminal
+
+Power supply and anode resistor calculations: https://threeneurons.wordpress.com/nixie-power-supply/
