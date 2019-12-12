@@ -1,13 +1,16 @@
 Resistor:
 1x 0R47 5W
-1/4W:
 
+1/4W: 5%
 1x 1k
-1x 3k3
 4x 15k 
 4x 22k
 4x 100k
-5x 470k
+4x 470k
+
+1/4W: 1%
+1x 3k3
+1x 470k
 
 Capacitor:
 1x 220u 16V
@@ -18,11 +21,11 @@ Capacitor:
 2x 100n
 
 Inductor:
-220uH 
+220uH 3A (D=15x8mm)
 
 Diode:
 1x 1N4148
-1x BYV27
+1x BYV27, BAV21, UF4004, UF4007, MUR140, MUR160
 
 Transistor:
 5x MPSA92
