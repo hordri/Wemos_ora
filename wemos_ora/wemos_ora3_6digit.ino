@@ -64,6 +64,8 @@ void setup()
   digitalWrite(ts2, LOW);
   digitalWrite(ts3, LOW);
   digitalWrite(ts4, LOW);
+  digitalWrite(ts5, LOW);
+  digitalWrite(ts6, LOW);
   digitalWrite(LED_BUILTIN, HIGH);
 
   //Serial.begin(9600);
